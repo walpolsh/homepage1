@@ -1,0 +1,24 @@
+.hero-container {
+  height: 1000px;
+}
+
+.hero-image {
+  background-image: url("https://68.media.tumblr.com/f68488b1055d6f17a8328e546db5559d/tumblr_n4n6f8b34l1t11530o1_1280.jpg");
+  height: 100%;
+  background-size: cover;
+}
+.hero-text Link {
+
+  color: black;
+}
+
+
+
+.hero-text button:hover {
+  background-color: #555;
+
+}
+
+.music-container {
+  padding-bottom: 10px;
+}

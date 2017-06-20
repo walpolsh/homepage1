@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color:  #e6ffff;
+  font: normal x-small verdana,arial,helvetica,sans-serif;
+  background-color: black;
+  min-height: 100%;
+}
+
+h2 {
+    font-family: "Josefin Sans","HelveticaNeue","Helvetica Neue",sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}

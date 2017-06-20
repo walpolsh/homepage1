@@ -1,0 +1,17 @@
+
+body {
+text-align: center;}
+
+.fa-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.fa-container .fa {
+  padding-bottom: 10px;
+  width: 100px;
+  font-size: 12px;
+
+}
