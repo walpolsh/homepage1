@@ -2,12 +2,14 @@
   text-align: center;
   padding: 0;
   margin: 0;
+  transition: 0.3s;
+
 }
 
 body {
-  color:  #e6ffff;
+  color:  #ffffff;
   font: normal x-small verdana,arial,helvetica,sans-serif;
-  background-color: black;
+  background-color: rgba(77, 96, 122, 0.8);
   min-height: 100%;
 }
 
@@ -17,4 +19,10 @@ h2 {
     font-style: normal;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+}
+
+@media (max-width: 320px) {
+  .topnav {
+    width: 320px;
+  }
 }
