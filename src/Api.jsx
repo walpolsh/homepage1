@@ -37,8 +37,7 @@ class Api extends Component {
               <i>{[i + 1]}.
               </i>
               <span>{childArray[i].title}</span>
-              <span className="fa fa-thumbs-o-up">{childArray[i].ups}
-                upvotes</span>
+              <span className="fa fa-thumbs-o-up"> {childArray[i].ups} upvotes</span>
             </a>
           </ul>
         );
