@@ -15,18 +15,27 @@
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 .5rem black;
 }
 
 .keydown {
   animation: mymove 0.15s ease;
 }
+
 @keyframes mymove {
-  0%   {transform: scale(1.0);}
-  100% {transform: scale(1.5);}
-  100% {border-color: rgb(66, 134, 244);}
-  100% {box-shadow: 0 0 1rem rgb(66, 134, 244);}
+  0% {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+  100% {
+    border-color: rgb(66, 134, 244);
+  }
+  100% {
+    box-shadow: 0 0 1rem rgb(66, 134, 244);
+  }
 }
 
 kbd {

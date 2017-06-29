@@ -8,8 +8,8 @@ class Music extends Component {
       <div className="hero-container">
         <div className="hero-image">
           <div className="hero-text">
-            <h1>I am Paul Walsh</h1>
-            <p>And I'm a Musician Too</p>
+            <h1>Music Portfolio</h1>
+            <h2>Check Out Some of My Music</h2>
             <div className="music-container">
                 <div>
                   <p>Soundcloud:
@@ -18,7 +18,6 @@ class Music extends Component {
                   <p>Youtube:
                   </p>
                   <iframe title="video" name="video" width="90%" height="700" src="https://www.youtube.com/embed/videoseries?list=PLZqP2eTUCIkEDLf8j085ZbbvOGZ-uqSkl" ></iframe>
-
                 </div>
             </div>
 
