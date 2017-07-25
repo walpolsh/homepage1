@@ -5,7 +5,6 @@ import './App.css';
 import './nav.css';
 import Music from './components/Music';
 import Footer from './Footer';
-import Topics from './Topics';
 
 class App extends Component {
   render() {
@@ -16,16 +15,14 @@ class App extends Component {
       } else {
         x.className = "topnav";
       }
-    }
+    };
     return (
       <Router>
         <div>
           <div className='topnav' id='myTopnav'>
             <Link className="navitem" to="/">Home Page</Link>
             {'       '}
-            <Link className="navitem" to="/topics">Web Developement Portfolio</Link>
-            {'       '}
-            <Link className="navitem" to="/music">Music Portfolio</Link>
+            <Link className="navitem" to="/music">My Music</Link>
             {'       '}
             <a className="icon" onClick={myFunction}>
               <button className="fa fa-beer"></button>
@@ -34,13 +31,11 @@ class App extends Component {
           <div>
             <Route exact path="/" component={Home}></Route>
             <Route path="/music" component={Music}></Route>
-            <Route path="/topics" component={Topics}></Route>
-
           </div>
           <Footer/>
         </div>
       </Router>
-    )
+    );
   }
 }
 

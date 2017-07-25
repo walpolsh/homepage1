@@ -12,7 +12,6 @@
   padding: 10px;
   font-size: 16px;
   text-align: center;
-  text-decoration: none;
   border-radius: 90%;
   width: 20%;
 }
@@ -95,7 +94,6 @@ Link {
   background-image: -ms-linear-gradient(top, #597b91, #105380);
   background-image: -o-linear-gradient(top, #597b91, #105380);
   background-image: linear-gradient(to bottom, #597b91, #105380);
-  text-decoration: none;
   transition: 0.7s;
 }
 

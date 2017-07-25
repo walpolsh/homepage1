@@ -21,9 +21,11 @@ a {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  height: 100%;
+  max-height: 500px;
+  max-width: 90%;
   color: rgb(255, 198, 0);
   font-size: 0.9rem;
+  overflow: auto;
 }
 
 img {

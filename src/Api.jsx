@@ -54,7 +54,7 @@ class Api extends Component {
       <div>
         <div>
           <h1>
-            Top 100 Posts THIS WEEK on r/webdev!!
+            Here I've fetched JSON data from Reddit to display the current top 100 Posts this week on <a href="https://www.reddit.com/r/webdev/">r/webdev!</a>
           </h1>
           <ul className="post-container">{posts}</ul>
         </div>

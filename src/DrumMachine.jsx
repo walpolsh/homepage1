@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './drummachine.css';
 import clap from './sounds/clap.wav';
 import hihat from './sounds/hihat.wav';
@@ -15,14 +15,19 @@ class DrumMachine extends Component {
     function playSound(e) {
       const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
       const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
-      console.log(key, audio);
       if (!audio)
         return;
       key.classList.add('keydown');
-      setTimeout(function() {
-        key.classList.remove("keydown")
+      setTimeout(function () {
+        key.classList.remove('keydown');
       }, 200);
+
       audio.currentTime = 0;
+      audio.play();
+    };
+    function handleClick() {
+      const audio = document.getElementById('aa').getAttribute('src');
+      console.log(audio)
       audio.play();
     }
 
@@ -31,7 +36,7 @@ class DrumMachine extends Component {
     return (
       <div>
         <h1>
-          Press the labeled letters on your keyboard to start making BEATS
+          Keyboard Drum Machine
         </h1>
         <div>
           <div className="keys">
@@ -88,7 +93,7 @@ class DrumMachine extends Component {
         <audio data-key="76" id="ll" src={fx}></audio>
 
       </div>
-    )
+    );
   }
 }
 
