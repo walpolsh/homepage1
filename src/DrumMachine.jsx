@@ -18,25 +18,24 @@ class DrumMachine extends Component {
       if (!audio)
         return;
       key.classList.add('keydown');
+      key.classList.add('shakeit')
       setTimeout(function () {
         key.classList.remove('keydown');
       }, 200);
+      setTimeout(function () {
+        key.classList.remove('shakeit');
+      }, 400);
 
       audio.currentTime = 0;
       audio.play();
     };
-    function handleClick() {
-      const audio = document.getElementById('aa').getAttribute('src');
-      console.log(audio)
-      audio.play();
-    }
 
     window.addEventListener('keydown', playSound);
 
     return (
       <div>
         <h1>
-          Keyboard Drum Machine
+          Your Keyboard is a Drum Machine!
         </h1>
         <div>
           <div className="keys">

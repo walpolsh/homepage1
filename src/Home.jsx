@@ -8,7 +8,7 @@ class Home extends Component {
       <div className="parallax-flex">
         <div className="parallax1">
           <div>
-            <h1>Welcome to My Home Page</h1>
+            <h1 className="title">Paul Walsh: Web Developer And Musician</h1>
             <div className="flex-container">
               <div className="img-container">
                 <img alt="it's me" src="https://scontent.fybz1-1.fna.fbcdn.net/v/t1.0-9/13133210_10150640299429946_5889149715149311224_n.jpg?oh=affaaa127387da27ee2c3df103999230&oe=59D78C8A"></img>
