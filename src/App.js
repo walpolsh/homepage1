@@ -20,7 +20,7 @@ class App extends Component {
       <Router>
         <div>
           <div className='topnav' id='myTopnav'>
-            <Link className="navitem" to="/">Home Page</Link>
+            <Link className="navitem" to="/homepage">Home Page</Link>
             {'       '}
             <Link className="navitem" to="/music">My Music</Link>
             {'       '}
@@ -29,7 +29,7 @@ class App extends Component {
             </a>
           </div>
           <div>
-            <Route exact path="/" component={Home}></Route>
+            <Route exact path="/homepage" component={Home}></Route>
             <Route path="/music" component={Music}></Route>
           </div>
           <Footer/>
